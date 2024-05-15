@@ -1,0 +1,187 @@
+Zoo Population and Habitat Report
+
+Jungle Habitat
+===================
+Name: Tony
+Species: tiger
+Gender: male
+Color: gold and tan stripes
+ID: ID9
+Birthplace: Dhaka, Bangladesh
+Weight: 270 pounds
+Birthdate: 2022-03-01
+Age: 2 years
+Arrival Date: 2024-05-15
+
+Name: Tigger
+Species: tiger
+Gender: female
+Color: black stripes
+ID: ID10
+Birthplace: Dhaka, Bangladesh
+Weight: 400 pounds
+Birthdate: 2020-03-01
+Age: 4 years
+Arrival Date: 2024-05-15
+
+Name: Amber
+Species: tiger
+Gender: male
+Color: gold and tan
+ID: ID11
+Birthplace: Bardia, Nepal
+Weight: 300 pounds
+Birthdate: 2006-09-01
+Age: 17 years
+Arrival Date: 2024-05-15
+
+Name: Cosimia
+Species: tiger
+Gender: female
+Color: black stripes
+ID: ID12
+Birthplace: Bardia, Nepal
+Weight: 285 pounds
+Birthdate: 2021-03-01
+Age: 3 years
+Arrival Date: 2024-05-15
+
+
+Forest Habitat
+===================
+Name: Yogi
+Species: bear
+Gender: male
+Color: brown
+ID: ID13
+Birthplace: Alaska Zoo, Alaska
+Weight: 320 pounds
+Birthdate: 2017-03-01
+Age: 7 years
+Arrival Date: 2024-05-15
+
+Name: Smokey
+Species: bear
+Gender: female
+Color: black
+ID: ID14
+Birthplace: Woodland park Zoo, Washington
+Weight: 425 pounds
+Birthdate: 1999-03-01
+Age: 25 years
+Arrival Date: 2024-05-15
+
+Name: Paddington
+Species: bear
+Gender: female
+Color: black
+ID: ID15
+Birthplace: Woodland park Zoo, Washington
+Weight: 355 pounds
+Birthdate: 2020-09-01
+Age: 3 years
+Arrival Date: 2024-05-15
+
+Name: Lippy
+Species: bear
+Gender: male
+Color: brown
+ID: ID16
+Birthplace: Alaska Zoo, Alaska
+Weight: 405 pounds
+Birthdate: 2020-03-01
+Age: 4 years
+Arrival Date: 2024-05-15
+
+
+Savannah Habitat
+===================
+Name: Shenzi
+Species: hyena
+Gender: female
+Color: tan
+ID: ID1
+Birthplace: Friguia Park, Tunisia
+Weight: 70 pounds
+Birthdate: 2020-03-01
+Age: 4 years
+Arrival Date: 2024-05-15
+
+Name: Banzai
+Species: hyena
+Gender: male
+Color: brown
+ID: ID2
+Birthplace: Friguia Park, Tunisia
+Weight: 150 pounds
+Birthdate: 2012-09-01
+Age: 11 years
+Arrival Date: 2024-05-15
+
+Name: Ed
+Species: hyena
+Gender: male
+Color: black
+ID: ID3
+Birthplace: Friguia Park, Tunisia
+Weight: 120 pounds
+Birthdate: 2020-03-01
+Age: 4 years
+Arrival Date: 2024-05-15
+
+Name: Zig
+Species: hyena
+Gender: female
+Color: black and tan striped
+ID: ID4
+Birthplace: Friguia Park, Tunisia
+Weight: 105 pounds
+Birthdate: 2016-01-01
+Age: 8 years
+Arrival Date: 2024-05-15
+
+Name: Scar
+Species: lion
+Gender: female
+Color: tan
+ID: ID5
+Birthplace: Zanzibar, Tanzania
+Weight: 300 pounds
+Birthdate: 2018-03-01
+Age: 6 years
+Arrival Date: 2024-05-15
+
+Name: Mufasa
+Species: lion
+Gender: female
+Color: dark tan
+ID: ID6
+Birthplace: KopeLion, Tanzania
+Weight: 375 pounds
+Birthdate: 2012-12-01
+Age: 11 years
+Arrival Date: 2024-05-15
+
+Name: Simba
+Species: lion
+Gender: male
+Color: golden
+ID: ID7
+Birthplace: Zanzibar, Tanzania
+Weight: 450 pounds
+Birthdate: 2002-09-01
+Age: 21 years
+Arrival Date: 2024-05-15
+
+Name: Kiara
+Species: lion
+Gender: female
+Color: tan and brown
+ID: ID8
+Birthplace: KopeLion, Tanzania
+Weight: 275 pounds
+Birthdate: 2020-03-01
+Age: 4 years
+Arrival Date: 2024-05-15
+
+

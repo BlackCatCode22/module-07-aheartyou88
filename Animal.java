@@ -1,41 +1,39 @@
-package dennisMohle.myZoo.com;
+package aYouZookeepersChallenge;
 
 import java.time.LocalDate;
 import java.time.Period;
 
 public class Animal {
-
     private String name;
-    private String sex;
+    private String species;
+    private String gender;
     private String color;
     private String id;
-    private String origin;
+    private String birthPlace;
     private int weight;
     private LocalDate birthDate;
     private LocalDate arrivalDate;
+    public static int numOfAnimals = 0;
 
-    private static int numOfAnimals = 0;
-
-    public Animal(String name, String sex, String color, String id, String origin, int weight,
-                  LocalDate birthDate, LocalDate arrivalDate) {
+    public Animal(String name, String species, String gender, String color, String id, String birthPlace, int weight, LocalDate birthDate, LocalDate arrivalDate) {
         this.name = name;
-        this.sex = sex;
+        this.species = species;
+        this.gender = gender;
         this.color = color;
         this.id = id;
-        this.origin = origin;
+        this.birthPlace = birthPlace;
         this.weight = weight;
         this.birthDate = birthDate;
         this.arrivalDate = arrivalDate;
         numOfAnimals++;
-        System.out.println("\n A new Animal object was created.\n");
+        System.out.println("\nA new Animal object was created:\n" + this);
     }
 
     public Animal() {
         numOfAnimals++;
-        System.out.println("\n A new Animal object was created.\n");
+        System.out.println("\nA new Animal object was created.\n");
     }
 
-    // Name
     public String getName() {
         return name;
     }
@@ -44,16 +42,22 @@ public class Animal {
         this.name = name;
     }
 
-    // Sex
-    public String getSex() {
-        return sex;
+    public String getSpecies() {
+        return species;
     }
 
-    public void setSex(String sex) {
-        this.sex = sex;
+    public void setSpecies(String species) {
+        this.species = species;
     }
 
-    // Color
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
     public String getColor() {
         return color;
     }
@@ -62,7 +66,6 @@ public class Animal {
         this.color = color;
     }
 
-    // ID
     public String getId() {
         return id;
     }
@@ -71,16 +74,14 @@ public class Animal {
         this.id = id;
     }
 
-    // Origin
-    public String getOrigin() {
-        return origin;
+    public String getBirthPlace() {
+        return birthPlace;
     }
 
-    public void setOrigin(String origin) {
-        this.origin = origin;
+    public void setBirthPlace(String birthPlace) {
+        this.birthPlace = birthPlace;
     }
 
-    // Weight
     public int getWeight() {
         return weight;
     }
@@ -89,7 +90,6 @@ public class Animal {
         this.weight = weight;
     }
 
-    // BirthDate
     public LocalDate getBirthDate() {
         return birthDate;
     }
@@ -98,7 +98,6 @@ public class Animal {
         this.birthDate = birthDate;
     }
 
-    // ArrivalDate
     public LocalDate getArrivalDate() {
         return arrivalDate;
     }
@@ -107,20 +106,25 @@ public class Animal {
         this.arrivalDate = arrivalDate;
     }
 
-    // Number of Animals
-    // Here we only have a Getter because the only place we "set" a number of animals is in the
-    //   Animal class constructor. Notice that this method is static because the field (numOfAnimals) is also static.
     public static int getNumOfAnimals() {
         return numOfAnimals;
     }
 
-
-    // Age calculation based on birthDate and current date
-    //  the getAge method calculates the age of the animal based on its birthdate and the current date.
-    //  This is more accurate than setting age directly, as the age needs to update automatically as time
-    //  progresses. Note that there's no setter for age since it's derived from birthDate and the
-    //  current date, not set directly.
     public int getAge() {
         return Period.between(this.birthDate, LocalDate.now()).getYears();
+    }
+
+    @Override
+    public String toString() {
+        return "Name: " + name + "\n" +
+                "Species: " + species + "\n" +
+                "Gender: " + gender + "\n" +
+                "Color: " + color + "\n" +
+                "ID: " + id + "\n" +
+                "Birthplace: " + birthPlace + "\n" +
+                "Weight: " + weight + " pounds\n" +
+                "Birthdate: " + birthDate + "\n" +
+                "Age: " + getAge() + " years\n" +
+                "Arrival Date: " + arrivalDate + "\n";
     }
 }
